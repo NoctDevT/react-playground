@@ -15,3 +15,19 @@ export const Hello = () => {
     return <div> Hello </div>
 
 }
+
+export const ShowContent = () => {
+
+
+    useEffect(() => {
+        console.log('render');
+        return() => {
+            console.log('unmount')
+        }
+    }, []);
+
+
+    
+    return <div> Hello </div>
+
+}

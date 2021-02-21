@@ -16,7 +16,7 @@ export const Hello = () => {
 
 }
 
-export const ShowContent = () => {
+export const ShowContent = (content) => {
 
 
     useEffect(() => {
@@ -28,6 +28,6 @@ export const ShowContent = () => {
 
 
     
-    return <div> Hello </div>
+    return content
 
 }

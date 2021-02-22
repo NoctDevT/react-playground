@@ -18,6 +18,7 @@ export function Index() {
         <div>{balance}</div>
 
     <div>
+
         <form id="someForm" onSubmit={submitForm}>
             <label>Amount:</label>
             <input name="amount" type="text" placeholder='Withdraw' required  />
@@ -25,7 +26,8 @@ export function Index() {
             <label htmlFor="submit">Submit</label>
             <input name="done" type="submit" />
         </form>
-    </div>     
+
+     </div>     
      </div>
      
     )

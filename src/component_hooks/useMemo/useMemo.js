@@ -15,6 +15,7 @@ export function MemoExample(){
 //Use case: 1 if we don't want a expensive function to be reran on each render and only computes when we need the value from that function
 //Use case: 2 referenctial equality where we want to only update the reference when the contents of the object changes instead of updating it every time it renders
 
+    const doubleNumber = useMemo(() => {return slowFunction(number)}, [number])
     // const doubleNumber = slowFunction(number)
     const themeStyles = useMemo(() => {
         return {

@@ -1,3 +1,3 @@
 Practicing current skills with react to enhance fluidity,
 
-Currently working on a mini project(web app) that will be deployed online.
+On hold Currently as working on a mini project(web app) that uses knowledge from this playground. App will be hosted online upon completion.
